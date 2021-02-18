@@ -13,6 +13,13 @@ RUN /usr/local/bin/install-plugins.sh $(cat /usr/share/jenkins/plugins.txt) && \
     echo lts > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state && \
     echo lts > /usr/share/jenkins/ref/jenkins.install.InstallUtil.lastExecVersion
 
+
+#custom for python
+RUN apt-get update -y
+RUN apt-get install -y python
+
+
+
 # Install Docker, kubectl and helm
 #RUN apt-get -qq update && \
 #    apt-get -qq -y install curl && \

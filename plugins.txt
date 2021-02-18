@@ -113,3 +113,12 @@ workflow-step-api
 workflow-support
 ws-cleanup
 kubernetes
+aws-codepipeline
+aws-lambda-cloud
+aws-codebuild
+codedeploy
+sonar
+ec2
+jenkins-cloudformation-plugin
+aws-codecommit-trigger
+gitlab-plugin
